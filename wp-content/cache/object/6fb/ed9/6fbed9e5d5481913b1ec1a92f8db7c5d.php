@@ -1,0 +1,1 @@
+k"`<?php exit; ?>a:1:{s:7:"content";a:1:{i:5;O:8:"stdClass":3:{s:7:"meta_id";s:2:"69";s:8:"meta_key";s:10:"Artículos";s:10:"meta_value";s:22:"Espumante X1 &times; 1";}}}

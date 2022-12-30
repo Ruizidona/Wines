@@ -1,0 +1,1 @@
+6/`<?php exit; ?>a:1:{s:7:"content";s:77:"D:\wamp64\www\vinos\wp-content\plugins\woocommerce/templates/loop/orderby.php";}

@@ -1,0 +1,14 @@
+2021-02-09T05:20:01+00:00 CRITICAL Uncaught Error: Class 'WC_WooMercadoPagoSplit_CustomGateway' not found in D:\wamp64\www\vinos\wp-content\plugins\woocommerce-mercadopago-split-master\includes\payments\WC_WooMercadoPagoSplit_PaymentAbstract.php:1444
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-mercadopago-split-master\includes\payments\WC_WooMercadoPagoSplit_PaymentAbstract.php(1425): WC_WooMercadoPagoSplit_PaymentAbstract->updateCredentialProduction()
+#1 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-mercadopago-split-master\includes\payments\WC_WooMercadoPagoSplit_PaymentAbstract.php(1365): WC_WooMercadoPagoSplit_PaymentAbstract->isProductionMode()
+#2 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-mercadopago-split-master\includes\payments\WC_WooMercadoPagoSplit_PaymentAbstract.php(111): WC_WooMercadoPagoSplit_PaymentAbstract->isTestUser()
+#3 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-mercadopago-split-master\includes\payments\WC_WooMercadoPagoSplit_BasicGateway.php(43): WC_WooMercadoPagoSplit_PaymentAb en D:\wamp64\www\vinos\wp-content\plugins\woocommerce-mercadopago-split-master\includes\payments\WC_WooMercadoPagoSplit_PaymentAbstract.php en la línea 1444
+
+2021-02-09T05:24:59+00:00 CRITICAL Uncaught Error: Class 'WC_WooMercadoPagoSplit_CustomGateway' not found in D:\wamp64\www\vinos\wp-content\plugins\woocommerce-mercadopago-split-master\includes\payments\WC_WooMercadoPagoSplit_PaymentAbstract.php:1444
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-mercadopago-split-master\includes\payments\WC_WooMercadoPagoSplit_PaymentAbstract.php(1425): WC_WooMercadoPagoSplit_PaymentAbstract->updateCredentialProduction()
+#1 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-mercadopago-split-master\includes\payments\WC_WooMercadoPagoSplit_PaymentAbstract.php(1365): WC_WooMercadoPagoSplit_PaymentAbstract->isProductionMode()
+#2 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-mercadopago-split-master\includes\payments\WC_WooMercadoPagoSplit_PaymentAbstract.php(111): WC_WooMercadoPagoSplit_PaymentAbstract->isTestUser()
+#3 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-mercadopago-split-master\includes\payments\WC_WooMercadoPagoSplit_BasicGateway.php(43): WC_WooMercadoPagoSplit_PaymentAb en D:\wamp64\www\vinos\wp-content\plugins\woocommerce-mercadopago-split-master\includes\payments\WC_WooMercadoPagoSplit_PaymentAbstract.php en la línea 1444
+

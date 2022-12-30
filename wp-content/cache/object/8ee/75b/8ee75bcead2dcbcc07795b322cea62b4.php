@@ -1,0 +1,1 @@
+6/`<?php exit; ?>a:1:{s:7:"content";a:2:{s:30:"_astra_sites_imported_wp_forms";a:1:{i:0;s:1:"1";}s:21:"wpforms_entries_count";a:1:{i:0;s:1:"2";}}}

@@ -1,0 +1,372 @@
+2021-02-08T03:26:43+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('notoptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('notoptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(96): wp_cache_get('notoptions', 'options')
+#3 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-abstract.php(57): get_option('woocommerce_pos...')
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-checkout.php(89): WC_POS_Admin_Settings_Abstract->get('enabled')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\class-wc-pos-orders.php(74): WC_POS_Admin_Settings_Checkout->get_enabled_gateway_ids()
+#6 D:\wamp64\www\vinos\wp-includes\class-wp-hook.php(287): WC_POS_Admin_Orders->payment_g en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T18:53:48+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('notoptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('notoptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(96): wp_cache_get('notoptions', 'options')
+#3 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-abstract.php(57): get_option('woocommerce_pos...')
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-checkout.php(89): WC_POS_Admin_Settings_Abstract->get('enabled')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\class-wc-pos-orders.php(74): WC_POS_Admin_Settings_Checkout->get_enabled_gateway_ids()
+#6 D:\wamp64\www\vinos\wp-includes\class-wp-hook.php(287): WC_POS_Admin_Orders->payment_g en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:00:08+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '500' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('alloptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('alloptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(230): wp_cache_get('alloptions', 'options', false)
+#3 D:\wamp64\www\vinos\wp-includes\option.php(116): wp_load_alloptions()
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-settings-api.php(262): get_option('woocommerce_woo...', NULL)
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-payment-gateway.php(201): WC_Settings_API->init_settings()
+#6 D:\wamp64\www\vinos\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-settings-api.php(282): WC_Payment_Gateway->init_settings()
+#7 D:\wamp64\www\vinos\wp-content\plugi en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:01:47+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '500' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('alloptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('alloptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(230): wp_cache_get('alloptions', 'options', false)
+#3 D:\wamp64\www\vinos\wp-includes\option.php(116): wp_load_alloptions()
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-settings-api.php(262): get_option('woocommerce_woo...', NULL)
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-payment-gateway.php(201): WC_Settings_API->init_settings()
+#6 D:\wamp64\www\vinos\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-settings-api.php(282): WC_Payment_Gateway->init_settings()
+#7 D:\wamp64\www\vinos\wp-content\plugi en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:03:10+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '500' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('alloptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('alloptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(230): wp_cache_get('alloptions', 'options', false)
+#3 D:\wamp64\www\vinos\wp-includes\option.php(116): wp_load_alloptions()
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-settings-api.php(262): get_option('woocommerce_woo...', NULL)
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-payment-gateway.php(201): WC_Settings_API->init_settings()
+#6 D:\wamp64\www\vinos\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-settings-api.php(282): WC_Payment_Gateway->init_settings()
+#7 D:\wamp64\www\vinos\wp-content\plugi en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:03:15+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '500' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('alloptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('alloptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(230): wp_cache_get('alloptions', 'options', false)
+#3 D:\wamp64\www\vinos\wp-includes\option.php(116): wp_load_alloptions()
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-settings-api.php(262): get_option('woocommerce_woo...', NULL)
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-payment-gateway.php(201): WC_Settings_API->init_settings()
+#6 D:\wamp64\www\vinos\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-settings-api.php(282): WC_Payment_Gateway->init_settings()
+#7 D:\wamp64\www\vinos\wp-content\plugi en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:04:50+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('notoptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('notoptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(96): wp_cache_get('notoptions', 'options')
+#3 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-abstract.php(57): get_option('woocommerce_pos...')
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-checkout.php(89): WC_POS_Admin_Settings_Abstract->get('enabled')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\class-wc-pos-orders.php(74): WC_POS_Admin_Settings_Checkout->get_enabled_gateway_ids()
+#6 D:\wamp64\www\vinos\wp-includes\class-wp-hook.php(287): WC_POS_Admin_Orders->payment_g en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:05:00+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('notoptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('notoptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(96): wp_cache_get('notoptions', 'options')
+#3 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-abstract.php(57): get_option('woocommerce_pos...')
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-checkout.php(89): WC_POS_Admin_Settings_Abstract->get('enabled')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\class-wc-pos-orders.php(74): WC_POS_Admin_Settings_Checkout->get_enabled_gateway_ids()
+#6 D:\wamp64\www\vinos\wp-includes\class-wp-hook.php(287): WC_POS_Admin_Orders->payment_g en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:05:08+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('notoptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('notoptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(96): wp_cache_get('notoptions', 'options')
+#3 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-abstract.php(57): get_option('woocommerce_pos...')
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-checkout.php(89): WC_POS_Admin_Settings_Abstract->get('enabled')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\class-wc-pos-orders.php(74): WC_POS_Admin_Settings_Checkout->get_enabled_gateway_ids()
+#6 D:\wamp64\www\vinos\wp-includes\class-wp-hook.php(287): WC_POS_Admin_Orders->payment_g en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:05:13+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('notoptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('notoptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(96): wp_cache_get('notoptions', 'options')
+#3 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-abstract.php(57): get_option('woocommerce_pos...')
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-checkout.php(89): WC_POS_Admin_Settings_Abstract->get('enabled')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\class-wc-pos-orders.php(74): WC_POS_Admin_Settings_Checkout->get_enabled_gateway_ids()
+#6 D:\wamp64\www\vinos\wp-includes\class-wp-hook.php(287): WC_POS_Admin_Orders->payment_g en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:05:22+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('notoptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('notoptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(96): wp_cache_get('notoptions', 'options')
+#3 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-abstract.php(57): get_option('woocommerce_pos...')
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-checkout.php(89): WC_POS_Admin_Settings_Abstract->get('enabled')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\class-wc-pos-orders.php(74): WC_POS_Admin_Settings_Checkout->get_enabled_gateway_ids()
+#6 D:\wamp64\www\vinos\wp-includes\class-wp-hook.php(287): WC_POS_Admin_Orders->payment_g en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:05:40+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('notoptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('notoptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(96): wp_cache_get('notoptions', 'options')
+#3 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-abstract.php(57): get_option('woocommerce_pos...')
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-checkout.php(89): WC_POS_Admin_Settings_Abstract->get('enabled')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\class-wc-pos-orders.php(74): WC_POS_Admin_Settings_Checkout->get_enabled_gateway_ids()
+#6 D:\wamp64\www\vinos\wp-includes\class-wp-hook.php(287): WC_POS_Admin_Orders->payment_g en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:05:45+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('notoptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('notoptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(96): wp_cache_get('notoptions', 'options')
+#3 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-abstract.php(57): get_option('woocommerce_pos...')
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-checkout.php(89): WC_POS_Admin_Settings_Abstract->get('enabled')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\class-wc-pos-orders.php(74): WC_POS_Admin_Settings_Checkout->get_enabled_gateway_ids()
+#6 D:\wamp64\www\vinos\wp-includes\class-wp-hook.php(287): WC_POS_Admin_Orders->payment_g en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:06:03+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('notoptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('notoptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(96): wp_cache_get('notoptions', 'options')
+#3 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-abstract.php(57): get_option('woocommerce_pos...')
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-checkout.php(89): WC_POS_Admin_Settings_Abstract->get('enabled')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\class-wc-pos-orders.php(74): WC_POS_Admin_Settings_Checkout->get_enabled_gateway_ids()
+#6 D:\wamp64\www\vinos\wp-includes\class-wp-hook.php(287): WC_POS_Admin_Orders->payment_g en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:07:37+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('notoptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('notoptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(96): wp_cache_get('notoptions', 'options')
+#3 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-abstract.php(57): get_option('woocommerce_pos...')
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-checkout.php(89): WC_POS_Admin_Settings_Abstract->get('enabled')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\class-wc-pos-orders.php(74): WC_POS_Admin_Settings_Checkout->get_enabled_gateway_ids()
+#6 D:\wamp64\www\vinos\wp-includes\class-wp-hook.php(287): WC_POS_Admin_Orders->payment_g en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:08:00+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('notoptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('notoptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(96): wp_cache_get('notoptions', 'options')
+#3 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-abstract.php(57): get_option('woocommerce_pos...')
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-checkout.php(89): WC_POS_Admin_Settings_Abstract->get('enabled')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\class-wc-pos-orders.php(74): WC_POS_Admin_Settings_Checkout->get_enabled_gateway_ids()
+#6 D:\wamp64\www\vinos\wp-includes\class-wp-hook.php(287): WC_POS_Admin_Orders->payment_g en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:08:07+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('notoptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('notoptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(96): wp_cache_get('notoptions', 'options')
+#3 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-abstract.php(57): get_option('woocommerce_pos...')
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-checkout.php(89): WC_POS_Admin_Settings_Abstract->get('enabled')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\class-wc-pos-orders.php(74): WC_POS_Admin_Settings_Checkout->get_enabled_gateway_ids()
+#6 D:\wamp64\www\vinos\wp-includes\class-wp-hook.php(287): WC_POS_Admin_Orders->payment_g en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:14:25+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('notoptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('notoptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(96): wp_cache_get('notoptions', 'options')
+#3 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-abstract.php(57): get_option('woocommerce_pos...')
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-checkout.php(89): WC_POS_Admin_Settings_Abstract->get('enabled')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\class-wc-pos-orders.php(74): WC_POS_Admin_Settings_Checkout->get_enabled_gateway_ids()
+#6 D:\wamp64\www\vinos\wp-includes\class-wp-hook.php(287): WC_POS_Admin_Orders->payment_g en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:14:57+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('notoptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('notoptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(96): wp_cache_get('notoptions', 'options')
+#3 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-abstract.php(57): get_option('woocommerce_pos...')
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-checkout.php(89): WC_POS_Admin_Settings_Abstract->get('enabled')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\class-wc-pos-orders.php(74): WC_POS_Admin_Settings_Checkout->get_enabled_gateway_ids()
+#6 D:\wamp64\www\vinos\wp-includes\class-wp-hook.php(287): WC_POS_Admin_Orders->payment_g en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:15:11+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('notoptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('notoptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(96): wp_cache_get('notoptions', 'options')
+#3 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-abstract.php(57): get_option('woocommerce_pos...')
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-checkout.php(89): WC_POS_Admin_Settings_Abstract->get('enabled')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\class-wc-pos-orders.php(74): WC_POS_Admin_Settings_Checkout->get_enabled_gateway_ids()
+#6 D:\wamp64\www\vinos\wp-includes\class-wp-hook.php(287): WC_POS_Admin_Orders->payment_g en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:15:37+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('notoptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('notoptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(96): wp_cache_get('notoptions', 'options')
+#3 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-abstract.php(57): get_option('woocommerce_pos...')
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-checkout.php(89): WC_POS_Admin_Settings_Abstract->get('enabled')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\class-wc-pos-orders.php(74): WC_POS_Admin_Settings_Checkout->get_enabled_gateway_ids()
+#6 D:\wamp64\www\vinos\wp-includes\class-wp-hook.php(287): WC_POS_Admin_Orders->payment_g en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:16:31+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('notoptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('notoptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(96): wp_cache_get('notoptions', 'options')
+#3 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-abstract.php(57): get_option('woocommerce_pos...')
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-checkout.php(89): WC_POS_Admin_Settings_Abstract->get('enabled')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\class-wc-pos-orders.php(74): WC_POS_Admin_Settings_Checkout->get_enabled_gateway_ids()
+#6 D:\wamp64\www\vinos\wp-includes\class-wp-hook.php(287): WC_POS_Admin_Orders->payment_g en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:17:17+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('notoptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('notoptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(96): wp_cache_get('notoptions', 'options')
+#3 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-abstract.php(57): get_option('woocommerce_pos...')
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-checkout.php(89): WC_POS_Admin_Settings_Abstract->get('enabled')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\class-wc-pos-orders.php(74): WC_POS_Admin_Settings_Checkout->get_enabled_gateway_ids()
+#6 D:\wamp64\www\vinos\wp-includes\class-wp-hook.php(287): WC_POS_Admin_Orders->payment_g en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:19:35+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('notoptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('notoptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(96): wp_cache_get('notoptions', 'options')
+#3 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-abstract.php(57): get_option('woocommerce_pos...')
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-checkout.php(89): WC_POS_Admin_Settings_Abstract->get('enabled')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\class-wc-pos-orders.php(74): WC_POS_Admin_Settings_Checkout->get_enabled_gateway_ids()
+#6 D:\wamp64\www\vinos\wp-includes\class-wp-hook.php(287): WC_POS_Admin_Orders->payment_g en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:22:17+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('notoptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('notoptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(96): wp_cache_get('notoptions', 'options')
+#3 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-abstract.php(57): get_option('woocommerce_pos...')
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-checkout.php(89): WC_POS_Admin_Settings_Abstract->get('enabled')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\class-wc-pos-orders.php(74): WC_POS_Admin_Settings_Checkout->get_enabled_gateway_ids()
+#6 D:\wamp64\www\vinos\wp-includes\class-wp-hook.php(287): WC_POS_Admin_Orders->payment_g en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:23:21+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('alloptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('alloptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(230): wp_cache_get('alloptions', 'options', false)
+#3 D:\wamp64\www\vinos\wp-includes\option.php(116): wp_load_alloptions()
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-mercadopago\includes\module\WC_WooMercadoPago_Credentials.php(42): get_option('_mp_public_key_...', '')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-mercadopago\includes\module\WC_WooMercadoPago_Module.php(65): WC_WooMercadoPago_Credentials->__construct(NULL)
+#6 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-mercadopago\includes\module\WC_WooMercadoPago_Module.php(113): WC_WooMercadoPago_Module::getMpIns en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:23:32+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('notoptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('notoptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(96): wp_cache_get('notoptions', 'options')
+#3 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-abstract.php(57): get_option('woocommerce_pos...')
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-checkout.php(89): WC_POS_Admin_Settings_Abstract->get('enabled')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\class-wc-pos-orders.php(74): WC_POS_Admin_Settings_Checkout->get_enabled_gateway_ids()
+#6 D:\wamp64\www\vinos\wp-includes\class-wp-hook.php(287): WC_POS_Admin_Orders->payment_g en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:23:32+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('alloptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('alloptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(230): wp_cache_get('alloptions', 'options', false)
+#3 D:\wamp64\www\vinos\wp-includes\option.php(116): wp_load_alloptions()
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-mercadopago\includes\module\WC_WooMercadoPago_Credentials.php(42): get_option('_mp_public_key_...', '')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-mercadopago\includes\module\WC_WooMercadoPago_Module.php(65): WC_WooMercadoPago_Credentials->__construct(NULL)
+#6 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-mercadopago\includes\module\WC_WooMercadoPago_Module.php(113): WC_WooMercadoPago_Module::getMpIns en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:23:49+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php:493
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php(290): WP_Object_Cache->_exists('notoptions', 'options')
+#1 D:\wamp64\www\vinos\wp-includes\cache.php(125): WP_Object_Cache->get('notoptions', 'options', false, NULL)
+#2 D:\wamp64\www\vinos\wp-includes\option.php(96): wp_cache_get('notoptions', 'options')
+#3 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-abstract.php(57): get_option('woocommerce_pos...')
+#4 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\settings\class-wc-pos-checkout.php(89): WC_POS_Admin_Settings_Abstract->get('enabled')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce-pos\includes\admin\class-wc-pos-orders.php(74): WC_POS_Admin_Settings_Checkout->get_enabled_gateway_ids()
+#6 D:\wamp64\www\vinos\wp-includes\class-wp-hook.php(287): WC_POS_Admin_Orders->payment_g en D:\wamp64\www\vinos\wp-includes\class-wp-object-cache.php en la línea 493
+
+2021-02-08T19:28:38+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php:675
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php(675): in_array('options', Array)
+#1 D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php(139): W3TC\ObjectCache_WpObjectCache_Regular->_get_cache_key('notoptions', 'options')
+#2 D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache.php(36): W3TC\ObjectCache_WpObjectCache_Regular->get('notoptions', 'options', false, NULL)
+#3 D:\wamp64\www\vinos\wp-content\object-cache.php(52): W3TC\ObjectCache_WpObjectCache->get('notoptions', 'options', false, NULL)
+#4 D:\wamp64\www\vinos\wp-includes\option.php(96): wp_cache_get('notoptions', 'options')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-settings-api.php(262): get_option('woocommerce_woo en D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php en la línea 675
+
+2021-02-08T19:28:38+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php:675
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php(675): in_array('options', Array)
+#1 D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php(139): W3TC\ObjectCache_WpObjectCache_Regular->_get_cache_key('notoptions', 'options')
+#2 D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache.php(36): W3TC\ObjectCache_WpObjectCache_Regular->get('notoptions', 'options', false, NULL)
+#3 D:\wamp64\www\vinos\wp-content\object-cache.php(52): W3TC\ObjectCache_WpObjectCache->get('notoptions', 'options', false, NULL)
+#4 D:\wamp64\www\vinos\wp-includes\option.php(96): wp_cache_get('notoptions', 'options')
+#5 D:\wamp64\www\vinos\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-settings-api.php(262): get_option('woocommerce_woo en D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php en la línea 675
+
+2021-02-08T19:28:43+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php:675
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php(675): in_array('options', Array)
+#1 D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php(139): W3TC\ObjectCache_WpObjectCache_Regular->_get_cache_key('alloptions', 'options')
+#2 D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache.php(36): W3TC\ObjectCache_WpObjectCache_Regular->get('alloptions', 'options', false, NULL)
+#3 D:\wamp64\www\vinos\wp-content\object-cache.php(52): W3TC\ObjectCache_WpObjectCache->get('alloptions', 'options', false, NULL)
+#4 D:\wamp64\www\vinos\wp-includes\option.php(230): wp_cache_get('alloptions', 'options', false)
+#5 D:\wamp64\www\vinos\wp-includes\option.php(116): wp_load_alloptions()
+#6 D:\wamp64\www\vinos\wp-content\plugins\woocommerce- en D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php en la línea 675
+
+2021-02-08T19:29:06+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php:675
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php(675): in_array('options', Array)
+#1 D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php(139): W3TC\ObjectCache_WpObjectCache_Regular->_get_cache_key('alloptions', 'options')
+#2 D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache.php(36): W3TC\ObjectCache_WpObjectCache_Regular->get('alloptions', 'options', false, NULL)
+#3 D:\wamp64\www\vinos\wp-content\object-cache.php(52): W3TC\ObjectCache_WpObjectCache->get('alloptions', 'options', false, NULL)
+#4 D:\wamp64\www\vinos\wp-includes\option.php(230): wp_cache_get('alloptions', 'options', false)
+#5 D:\wamp64\www\vinos\wp-includes\option.php(116): wp_load_alloptions()
+#6 D:\wamp64\www\vinos\wp-content\plugins\woocommerce- en D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php en la línea 675
+
+2021-02-08T19:31:36+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php:675
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php(675): in_array('options', Array)
+#1 D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php(139): W3TC\ObjectCache_WpObjectCache_Regular->_get_cache_key('alloptions', 'options')
+#2 D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache.php(36): W3TC\ObjectCache_WpObjectCache_Regular->get('alloptions', 'options', false, NULL)
+#3 D:\wamp64\www\vinos\wp-content\object-cache.php(52): W3TC\ObjectCache_WpObjectCache->get('alloptions', 'options', false, NULL)
+#4 D:\wamp64\www\vinos\wp-includes\option.php(230): wp_cache_get('alloptions', 'options', false)
+#5 D:\wamp64\www\vinos\wp-includes\option.php(116): wp_load_alloptions()
+#6 D:\wamp64\www\vinos\wp-content\plugins\woocommerce- en D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php en la línea 675
+
+2021-02-08T19:33:39+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php:675
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php(675): in_array('options', Array)
+#1 D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php(139): W3TC\ObjectCache_WpObjectCache_Regular->_get_cache_key('alloptions', 'options')
+#2 D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache.php(36): W3TC\ObjectCache_WpObjectCache_Regular->get('alloptions', 'options', false, NULL)
+#3 D:\wamp64\www\vinos\wp-content\object-cache.php(52): W3TC\ObjectCache_WpObjectCache->get('alloptions', 'options', false, NULL)
+#4 D:\wamp64\www\vinos\wp-includes\option.php(230): wp_cache_get('alloptions', 'options', false)
+#5 D:\wamp64\www\vinos\wp-includes\option.php(116): wp_load_alloptions()
+#6 D:\wamp64\www\vinos\wp-content\plugins\woocommerce- en D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php en la línea 675
+
+2021-02-08T19:43:10+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php:675
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php(675): in_array('options', Array)
+#1 D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php(139): W3TC\ObjectCache_WpObjectCache_Regular->_get_cache_key('alloptions', 'options')
+#2 D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache.php(36): W3TC\ObjectCache_WpObjectCache_Regular->get('alloptions', 'options', false, NULL)
+#3 D:\wamp64\www\vinos\wp-content\object-cache.php(52): W3TC\ObjectCache_WpObjectCache->get('alloptions', 'options', false, NULL)
+#4 D:\wamp64\www\vinos\wp-includes\option.php(231): wp_cache_get('alloptions', 'options', false)
+#5 D:\wamp64\www\vinos\wp-includes\option.php(117): wp_load_alloptions()
+#6 D:\wamp64\www\vinos\wp-content\plugins\woocommerce- en D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php en la línea 675
+
+2021-02-08T19:43:12+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php:675
+Stack trace:
+#0 D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php(675): in_array('options', Array)
+#1 D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php(139): W3TC\ObjectCache_WpObjectCache_Regular->_get_cache_key('alloptions', 'options')
+#2 D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache.php(36): W3TC\ObjectCache_WpObjectCache_Regular->get('alloptions', 'options', false, NULL)
+#3 D:\wamp64\www\vinos\wp-content\object-cache.php(52): W3TC\ObjectCache_WpObjectCache->get('alloptions', 'options', false, NULL)
+#4 D:\wamp64\www\vinos\wp-includes\option.php(231): wp_cache_get('alloptions', 'options', false)
+#5 D:\wamp64\www\vinos\wp-includes\option.php(117): wp_load_alloptions()
+#6 D:\wamp64\www\vinos\wp-content\plugins\woocommerce- en D:\wamp64\www\vinos\wp-content\plugins\w3-total-cache\ObjectCache_WpObjectCache_Regular.php en la línea 675
+
